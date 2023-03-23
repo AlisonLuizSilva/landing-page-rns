@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <title>Planos de Saúde Empresarias</title>
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
+
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu-hamburger container__imagem"></span>
+                </label>
+           
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ínicio</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Perguntas Frequentes</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Contatos</a>
+                </li>
+
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Localização</a>
+                </li>
+            </ul>
+
+                <img src="/imagens/logo-ransom.png" alt="Logo Ransom" id="Logo__Ransom" class="container__imagem">
+            </div>
+               
+            <div class="container">
+                <img src="/imagens/whatsapp-logo.svg" alt="Logo Whatsapp" id="Logo__Whats" class="container__imagem">
+
+                <img src="/imagens/instagram-logo.svg" alt="Logo Insta" id="Logo__Insta" class="container__imagem">
+            </div>
+        </header>
+
+        <div class="banner">
+            <div class="banner__imagem">
+                <img src="/imagens/banner__saude-pme1.jpg" alt="Imagem Banner PME" class="imagem-pme">
+                    <div class="banner__texto">
+                        <h1 class="banner__titulo">Planos de Saúde Empresariais</h1>
+                        <h2 class="banner__subtitulo">Proteja a Saúde dos seus Colaboradores</h2>
+
+                            <p class="banner__descricao">Apresentamos os melhores planos de saúde empresariais para a sua empresa.<br>
+                                Cuidados com a saúde são fundamentais para garantir a qualidade de vida e a produtividade dos colaboradores,
+                                com nossos planos de saúde você proporciona segurança e tranquilidade para seus colaboradores e suas famílias.<br>
+                                Temos opções para empresas de todos os portes e segmentos, com preços competitivos e benefícios exclusivos.
+                                Não perca mais tempo buscando por planos de saúde empresariais.<br> Entre em contato conosco e descubra as melhores opções para a sua empresa.</p>
+                    </div>
+            </div>
+        </div>
+            <h3 class="titulo__seguradoras">Seguradoras que operamos</h3>        
+        <section class="carrossel">
+
+                <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="/imagens/seg-bradesco.png" alt="Logo Bradesco" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-amil.png" alt="Logo Amil" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-amilone.png" alt="Logo AmilOne" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-amilfacil.png" alt="Logo AmilFacil" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-sulamerica.png" alt="Logo Sulamerica" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-segurosunimed.png" alt="Logo SegurosUnimed" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-portosaude.png" alt="Logo PortoSeguro" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-gndi.png" alt="Logo gndi" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-biosaude.png" alt="Logo BioSaude" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-allianz.png" alt="Logo Allianz" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-saocristvosade.png" alt="Logo SaoCristovao" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-trasmontano.png" alt="Logo Transmontano" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-bluemed.png" alt="Logo BlueMed" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-saomiguel.png" alt="Logo SaoMiguel" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-samisaude.png" alt="Logo Sami" class="logo__seguradora"></div>
+                <div class="swiper-slide"><img src="/imagens/seg-cuidarme.png" alt="Logo Cuidarme" class="logo__seguradora"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 6,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+            },
+          });
+        </script>
+    </body>
+</html>

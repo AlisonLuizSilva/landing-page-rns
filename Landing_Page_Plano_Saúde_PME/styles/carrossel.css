@@ -1,0 +1,12 @@
+.carrossel{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo__seguradora{
+    
+}
+
+.swiper-button-prev, .swiper-button-next{
+    display: none;
+}
