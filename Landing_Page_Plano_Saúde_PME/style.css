@@ -1,6 +1,8 @@
 @import url(/styles/header.css);
 @import url(/styles/banner.css);
 @import url(/styles/carrossel.css);
+@import url(/styles/formulario.css);
+@import url(/styles/footer.css);
 
 :root{
     --fonte-principal:"poppins";
@@ -8,6 +10,8 @@
     --cor-de-fundo: #ECECEC;
     --branco: #ffffff;
     --laranja:#EAB308;
+    --cinza:#2c353d;
+
 
 
 }
@@ -15,6 +19,13 @@
 body{
     font-family: var(--fonte-principal);
     background-color: var(--cor-de-fundo);
+    
+}
+
+footer{
+    background-color: var(--cinza);
+    color: var(--branco);
+    padding: 3em;
 }
 
 h3{
@@ -24,3 +35,28 @@ h3{
     text-align: center;
     padding: 1em 0;
 }
+
+h4{
+    color: var(--laranja);
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1em;
+    margin-bottom: 1em;
+    text-transform: uppercase
+}
+
+
+    @media screen and (max-width: 480px){
+        h5{
+            font-size: 14px;
+        }
+
+
+    }
