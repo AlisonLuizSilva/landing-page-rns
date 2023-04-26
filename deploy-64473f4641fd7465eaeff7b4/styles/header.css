@@ -1,0 +1,73 @@
+header{
+    background-color: var(--cor-header);
+    padding: 2em ;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+
+.cabecalho__menu-hamburger{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;                  
+    background-position: center;                    
+    display: inline-block;
+    background-image: url("../imagens/Menu.svg");
+  
+}
+
+.container__imagem{
+    padding: 0 0.2em;
+    width: 2.5em;
+}
+
+#logo__ransom{
+    width: 7em;
+    padding: 0 0.5em;
+    margin-left: 20px;
+}
+
+.lista-menu{
+    position:absolute;
+    display: none;
+    background: var(--cor-de-fundo);
+    width: 50vw;
+    
+}
+
+.container__botao:checked ~ .lista-menu{
+    display: block;
+}
+
+.container__botao{
+    display: none;
+}
+
+.lista-menu__titulo, .lista-menu__item{
+    padding: 1em;
+
+
+}
+
+.lista-menu__link{
+    color: var(--laranja);
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;  
+}
+
+
+
+
+
+
