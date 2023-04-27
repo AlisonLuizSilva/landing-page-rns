@@ -3,6 +3,7 @@
 @import url(/styles/carrossel.css);
 @import url(/styles/formulario.css);
 @import url(/styles/footer.css);
+@import url(/styles/produtos.css);
 
 :root{
     --fonte-principal:"poppins";
