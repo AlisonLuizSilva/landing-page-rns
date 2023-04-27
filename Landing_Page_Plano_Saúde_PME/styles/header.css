@@ -10,12 +10,6 @@ header{
 
 }
 
-.container{
-    display: flex;
-    align-items: center;
-}
-
-
 .cabecalho__menu-hamburger{
     width: 50px;
     height: 50px;
@@ -23,8 +17,25 @@ header{
     background-position: center;                    
     display: inline-block;
     background-image: url("../imagens/Menu.svg");
-  
+
 }
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.botoes__menu{
+    margin: 0 auto;
+    
+}
+
+.menu-item{
+    color: var(--branco);
+    text-decoration: none;
+    padding: 0.5em;
+}
+
 
 .container__imagem{
     padding: 0 0.2em;
@@ -32,7 +43,7 @@ header{
 }
 
 #logo__ransom{
-    width: 7em;
+    width: 9em;
     padding: 0 0.5em;
     margin-left: 20px;
 }
@@ -66,6 +77,21 @@ header{
     text-transform: uppercase;  
 }
 
+    @media screen and (max-width: 480px){
+        .botoes__menu{
+            display: none;
+        }
+        
+
+    }
+
+    @media screen and (min-width: 1024px){
+
+        .cabecalho__menu-hamburger{
+            display: none;
+        }
+        
+    }
 
 
 
