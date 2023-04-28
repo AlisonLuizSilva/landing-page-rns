@@ -44,7 +44,7 @@ header{
 }
 
 #logo__ransom{
-    width: 9em;
+    width: 120px;
     padding: 0 0.5em;
     margin-left: 20px;
 }
@@ -78,7 +78,7 @@ header{
     text-transform: uppercase;  
 }
 
-    @media screen and (max-width: 885px){
+    @media screen and (max-width: 890px){
         .botoes__menu{
             display: none;
         }

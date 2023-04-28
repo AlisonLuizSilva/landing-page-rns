@@ -1,24 +1,27 @@
+.produtos{
+    width: 100%;
+}
+
+
 .produtos__titulo{
-    font-size: 30px;
+    font-size: 20px;
     margin: 1em 0;
     text-align: center;
     color: var(--laranja);
     font-weight: 700;
 }
 
-.produtos{
-    width: 100%;
-}
 
 .tipos-planos{
     display: flex;
-    justify-content: space-between;
-    margin: 40px 15% 40px 20%;
+    justify-content: space-around;
+    margin: 10px 50px 50px 50px;
     text-align: center;
     
 }
 
 .nome__saude{
+    font-size: 14px;
     margin: 1em;
     color: var(--cor-header);
     font-weight: 500;
@@ -26,10 +29,61 @@
 
 
 .saude-pf, .saude-pme{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
+
 }
 
+.saude-pf:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+}
+
+.saude-pme:hover{
+    opacity: 0.6;
+    transform: scale(1.05);
+
+}
+
+        @media screen and (max-width:379px){
+            .tipos-planos{
+                margin: 10px 20px 50px 20px;
+
+        }
+    }
+        @media screen and (min-width:480px){
+            .saude-pf, .saude-pme{
+                width: 120px;
+                height: 120px;
+
+            }
+        }
+
+        @media screen and (min-width:580px){
+            .saude-pf, .saude-pme{
+                width: 150px;
+                height: 150px;
+
+            }
+        }
+
+        @media screen and (min-width:670px){
+            .saude-pf, .saude-pme{
+                width: 180px;
+                height: 180px;
+
+            }
+            
+        }
 
 
+
+
+        @media screen and (min-width:1300px){
+            .saude-pf, .saude-pme{
+                width: 300px;
+                height: 300px;
+
+            }
+        }
