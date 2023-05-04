@@ -1,22 +1,11 @@
 #localizacao{
     text-align: center;
-    width: 80%;
+    width: 95%;
     margin: 5em auto;
-    padding: 3em 2em;
-    border: solid 3px #ccc;
+    padding: 1em 0.1em;
+    border: solid 2px #ccc;
     border-radius: 50px;
-    box-shadow: 0px 20px 15px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0, 0, 0, 0.15);
     
 }
 
-    @media screen and (max-width: 520px){
-        #localizacao{
-            width: 60%;
-        }
-    }
-
-    @media screen and (max-width: 335px){
-        #localizacao{
-            width: 50%;
-        }
-    }
