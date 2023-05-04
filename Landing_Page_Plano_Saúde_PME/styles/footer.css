@@ -6,9 +6,9 @@
 
 .rodape__coluna-a,
 .rodape__coluna-b,
-.rodape__coluna-c,
-.rodape__coluna-d{
-    width: 40%;
+.rodape__coluna-c{
+    text-align: center;
+    width: 33%;
     box-sizing: border-box;
     padding: 1em;
 }
@@ -18,19 +18,20 @@
     line-height: 2em;
 }
 
+
 .lista-rodape{
     font-size: 12px;
     padding-top: 1em;
     line-height: 2em;
-    list-style-type: disc;
+    list-style-type: none;
 }
 
 
-    @media screen and (max-width: 480px){
+
+    @media screen and (max-width: 515px){
         .rodape__coluna-a,
         .rodape__coluna-b,
-        .rodape__coluna-c,
-        .rodape__coluna-d{
+        .rodape__coluna-c{
             width: 40%;
             box-sizing: border-box;
             padding: 0.2em;

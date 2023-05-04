@@ -4,6 +4,8 @@
 @import url(/styles/formulario.css);
 @import url(/styles/footer.css);
 @import url(/styles/produtos.css);
+@import url(/styles/localizacao.css);
+@import url(/styles/contatos.css);
 
 :root{
     --fonte-principal:"poppins";

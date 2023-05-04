@@ -1,6 +1,6 @@
 header{
     background-color: var(--cor-header);
-    padding: 2em ;
+    padding: 2em;
 }
 
 .cabecalho{
@@ -12,7 +12,7 @@ header{
 }
 
 .cabecalho__menu-hamburger{
-    position: absolute;
+    position: relative;
     width: 50px;
     height: 50px;
     background-repeat: no-repeat;                  
@@ -64,14 +64,20 @@ header{
 
 .container__imagem{
     padding: 0 0.2em;
-    width: 2.5em;
+    margin: 0 0.5em;
 }
 
 
-#logo__ransom{
-    width: 120px;
+#Logo__Ransom{
     padding: 0 0.5em;
     margin-left: 20px;
+    width: 120px;
+
+}
+
+#logo__whats,
+#logo__insta{
+    width: 10px;
 }
 
 
@@ -86,6 +92,8 @@ header{
             text-decoration: none;
             padding: 0.5em;
         }
+
+        
 
         @media screen and (max-width: 960px){
             .botoes__menu{
@@ -131,12 +139,26 @@ header{
 
         }
 
-        @media screen and (min-width: 665px){
-        .cabecalho__menu-hamburger{
-            display: none;
-        }
+        @media screen and (max-width: 375px){
+            .container__imagem{
+                width: 25px;
+                margin: 0 0.2em;
+            }
+
+            #logo__Ransom{
+                width: 90px;
+            }
 
         }
+
+            @media screen and (min-width: 665px){
+            .cabecalho__menu-hamburger{
+                display: none;
+            }
+
+            }
+
+        
 
 
 

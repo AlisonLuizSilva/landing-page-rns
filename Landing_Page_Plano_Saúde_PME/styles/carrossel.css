@@ -10,7 +10,44 @@
 }
 
 .logo__seguradora{
-    width: 10vw;
-    padding: 0 5em;
+    width: 150px;
+    padding: 0 0 0 5em;
+    
 }
+
+    @media screen and (max-width:1000px){
+        .logo__seguradora{
+            width: 100px;
+            padding: 0 0 0 5em;
+        }
+    }
+
+    @media screen and (max-width:850px){
+        .logo__seguradora{
+            width: 100px;
+            padding: 0 0 0 3em;
+        }
+    }
+
+    @media screen and (max-width:700px){
+        .logo__seguradora{
+            width: 85px;
+            padding: 0 0 0 3em;
+        }
+    }
+
+    @media screen and (max-width:520px){
+        .logo__seguradora{
+            width: 80px;
+            padding: 0 0 0 3em;
+        }
+    }
+
+
+    @media screen and (max-width:430px){
+        .logo__seguradora{
+            width: 75px;
+            padding: 0 0 0 3em;
+        }
+    }
 

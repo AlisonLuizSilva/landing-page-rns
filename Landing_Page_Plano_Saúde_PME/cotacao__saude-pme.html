@@ -1,236 +1,239 @@
-<head>
-    <meta charset="UTF=8">
-    <meta name="viewport" content="width=device-width", intial-scale="1.0">
-    <title>Planos de Saúde Empresarias</title>
-    <link rel="stylesheet" href="/reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <header class="cabecalho">
+<!Doctype html>
+    <head>
+        <meta charset="UTF=8">
+        <meta name="viewport" content="width=device-width", intial-scale="1.0">
+        <title>Planos de Saúde Empresarias</title>
+        <link rel="stylesheet" href="/reset.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/style.css">
+    </head>
+    <body>
+        <header class="cabecalho">
 
-        <div class="container">
-            <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
-                <span class="cabecalho__menu-hamburger container__imagem"></span>
-            </label>
-       
+            <div class="container">
+                <input type="checkbox" id="menu" class="container__botao">
+                <label for="menu">
+                    <span class="cabecalho__menu-hamburger container__imagem"></span>
+                </label>
+        
 
-            <ul class="lista-menu">
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Ínicio</a>
-                </li>
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Perguntas Frequentes</a>
-                </li>
+                <ul class="lista-menu">
+                    <li class="lista-menu__item">
+                        <a href="/index.html" class="lista-menu__link">Ínicio</a>
+                    </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Perguntas Frequentes</a>
+                    </li>
 
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Trabalhe conosco</a>
-                </li>
+                    <li class="lista-menu__item">
+                        <a href="#" class="lista-menu__link">Trabalhe conosco</a>
+                    </li>
 
-                <li class="lista-menu__item">
-                    <a href="#" class="lista-menu__link">Contatos</a>
-                </li>
-            </ul>
+                    <li class="lista-menu__item">
+                        <a href="/contatos.html" class="lista-menu__link">Contatos</a>
+                    </li>
+                </ul>
 
-           <img src="/imagens/logo-ransom.png" alt="Logo Ransom" id="Logo__Ransom" class="container__imagem">
+            <a href="/index.html"><img src="/imagens/logo-ransom.png" alt="Logo Ransom" id="Logo__Ransom" class="container__imagem"></a>
 
-           <div class="botoes__menu">
-                <a href="#" class="menu-item">Início</a>
-                <a href="#" class="menu-item">Perguntas Frequentes</a>
-                <a href="#" class="menu-item">Trabalhe conosco</a>
-                <a href="#" class="menu-item">Contatos</a>
-           </div>
-        </div>  
-           
-        <div class="container">
-            <img src="/imagens/whatsapp-logo.svg" alt="Logo Whatsapp" id="Logo__Whats" class="container__imagem">
+            <div class="botoes__menu">
+                    <a href="/index.html" class="menu-item">Início</a>
+                    <a href="#" class="menu-item">Perguntas Frequentes</a>
+                    <a href="#" class="menu-item">Trabalhe conosco</a>
+                    <a href="/contatos.html" class="menu-item">Contatos</a>
+            </div>
+            </div>  
+            
+            <div class="container">
+                <a href="https://api.whatsapp.com/send?phone=5511938012891&text=" target="_blank"><img src="/imagens/whatsapp-logo.svg" alt="Logo Whatsapp" id="Logo__Whats" class="container__imagem"></a>
 
-            <img src="/imagens/instagram-logo.svg" alt="Logo Insta" id="Logo__Insta" class="container__imagem">
-        </div>
-    </header>
+                <a href="https://www.instagram.com/ransom_seguros/" target="_blank"><img src="/imagens/instagram-logo.svg" alt="Logo Insta" id="Logo__Insta" class="container__imagem"></a>
+            </div>
+        </header>
 
-        <h4>Formulário de cotação para planos empresariais</h4>
+            <h4>Formulário de cotação para planos empresariais</h4>
 
-        <div class="container__formulario">
-            <form>  
-                    <label for="nome">Nome proprietário CNPJ:
-                        <input type="text" id="nome" class="input-padrao" required placeholder="Insira o nome do proprietário da empresa">
-                    </label>
+            <div class="container__formulario">
+                <form>  
+                        <label for="nome">Nome proprietário CNPJ:
+                            <input type="text" id="nome" class="input-padrao" required placeholder="Insira o nome do proprietário da empresa">
+                        </label>
 
-                    <label for="cnpj">CNPJ:
-                        <input type="text" id="cnpj" class="input-padrao" required placeholder="Somente números">
-                    </label>
+                        <label for="cnpj">CNPJ:
+                            <input type="text" id="cnpj" class="input-padrao" required placeholder="Somente números">
+                        </label>
 
-                    <label for="nome-empresa">Nome Fantasia:
-                        <input type="text"  id="nome-empresa" class="input-padrao" required placeholder="Digite o nome fantasia da empresa">
-                    </label>
+                        <label for="nome-empresa">Nome Fantasia:
+                            <input type="text"  id="nome-empresa" class="input-padrao" required placeholder="Digite o nome fantasia da empresa">
+                        </label>
 
-                    <fieldset class="UF">
-                        <legend>UF</legend>
-                            <select>
-                                <option>AC</option>
-                                <option>AL</option>
-                                <option>AM</option>
-                                <option>AP</option>
-                                <option>BA</option>
-                                <option>CE</option>
-                                <option>DF</option>
-                                <option>ES</option>
-                                <option>GO</option>
-                                <option>MA</option>
-                                <option>MT</option>
-                                <option>MS</option>
-                                <option>MG</option>
-                                <option>PA</option>
-                                <option>PB</option>
-                                <option>PR</option>
-                                <option>PE</option>
-                                <option>PI</option>
-                                <option>RJ</option>
-                                <option>RN</option>
-                                <option>RS</option>
-                                <option>RO</option>
-                                <option>RR</option>
-                                <option>SC</option>
-                                <option>SP</option>
-                                <option>SE</option>
-                                <option>TO</option>
-                            </select>
-                    </fieldset>
-
-                    <label for="cidade">Cidade:</label>
-                    <input type="text" id="cidade" class="input-padrao"  required placeholder="Informe sua cidade">
-
-                    <fieldset class="Vidas">
-                        <legend>Quantidade de vidas:</legend>
-                            <p class="descricao__formulario">Selecione a quantidade de vidas de sua empresa que irá entrar na cotação</p>
+                        <fieldset class="UF">
+                            <legend>UF</legend>
                                 <select>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6 à 10</option>
-                                    <option>11 à 21</option>
-                                    <option>21 à 29</option>
-                                    <option>30+</option>
-                                                                
+                                    <option>AC</option>
+                                    <option>AL</option>
+                                    <option>AM</option>
+                                    <option>AP</option>
+                                    <option>BA</option>
+                                    <option>CE</option>
+                                    <option>DF</option>
+                                    <option>ES</option>
+                                    <option>GO</option>
+                                    <option>MA</option>
+                                    <option>MT</option>
+                                    <option>MS</option>
+                                    <option>MG</option>
+                                    <option>PA</option>
+                                    <option>PB</option>
+                                    <option>PR</option>
+                                    <option>PE</option>
+                                    <option>PI</option>
+                                    <option>RJ</option>
+                                    <option>RN</option>
+                                    <option>RS</option>
+                                    <option>RO</option>
+                                    <option>RR</option>
+                                    <option>SC</option>
+                                    <option>SP</option>
+                                    <option>SE</option>
+                                    <option>TO</option>
                                 </select>
-                    </fieldset>
+                        </fieldset>
 
-                    <!--INSERIR AQUI UM PLUGIN EM JS PARA DATA DE NASCIMENTO A DEPENDER DE QUANTAS VIDAS TEM NA COTAÇÃO-->
+                        <label for="cidade">Cidade:</label>
+                        <input type="text" id="cidade" class="input-padrao"  required placeholder="Informe sua cidade">
 
-                    <fieldset class="acomodacao">
-                        <legend>Tipo de acomodação:</legend>
+                        <fieldset class="Vidas">
+                            <legend>Quantidade de vidas:</legend>
+                                <p class="descricao__formulario">Selecione a quantidade de vidas de sua empresa que irá entrar na cotação</p>
+                                    <select>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6 à 10</option>
+                                        <option>11 à 21</option>
+                                        <option>21 à 29</option>
+                                        <option>30+</option>
+                                                                    
+                                    </select>
+                        </fieldset>
 
-                            <p class="descricao__formulario">Escolha entre enfermaria (quarto compartilhado) ou apartamento (quarto privativo) durante internações.</p>
-                                <label for="radio-qc">
-                                    <input type="radio" name="tipo-acomodacao" value="qc" id="radio-qc">
-                                    Quarto Coletivo
+                        <!--INSERIR AQUI UM PLUGIN EM JS PARA DATA DE NASCIMENTO A DEPENDER DE QUANTAS VIDAS TEM NA COTAÇÃO-->
+
+                        <fieldset class="acomodacao">
+                            <legend>Tipo de acomodação:</legend>
+
+                                <p class="descricao__formulario">Escolha entre enfermaria (quarto compartilhado) ou apartamento (quarto privativo) durante internações.</p>
+                                    <label for="radio-qc">
+                                        <input type="radio" name="tipo-acomodacao" value="qc" id="radio-qc">
+                                        Quarto Coletivo
+                                    </label>
+
+                                    <label for="radio-qp">
+                                        <input type="radio" name="tipo-acomodacao" value="qp" id="radio-qp">
+                                        Quarto Privativo
+                                    </label>
+
+                                    <label for="ambas">
+                                        <input type="radio" name="tipo-acomodacao" id="ambas" id="ambas" checked>
+                                        Apresente-me ambas opções
+                                    </label>
+                        </fieldset>
+
+                        <fieldset class="coparticipacao">
+                            <legend>Coparticipação:</legend>
+
+                                <p class="descricao__formulario">Pagamento adicional feito pelo beneficiário para custear parte dos serviços utilizados.</p>
+                                <label for="copart-sim">
+                                    <input type="radio" name="copart" value="coparticipacao" id="copart-sim">
+                                    Sim
                                 </label>
 
-                                <label for="radio-qp">
-                                    <input type="radio" name="tipo-acomodacao" value="qp" id="radio-qp">
-                                    Quarto Privativo
+                                <label for="copart-não">
+                                    <input type="radio" name="copart" value="coparticipacao" id="copart-nao">
+                                    Não
+                                </label>
+                        </fieldset>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
+
+                        <fieldset class="contato">
+                            <legend>Como Prefere seu contato?</legend>
+                                <label for="radio-email">
+                                    <input type="radio" name="contato" value="email" id="radio-email">
+                                    E-mail
                                 </label>
 
-                                <label for="ambas">
-                                    <input type="radio" name="tipo-acomodacao" id="ambas" id="ambas" checked>
-                                    Apresente-me ambas opções
+                                <label for="radio-telefone">
+                                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                                    Telefone
                                 </label>
-                    </fieldset>
 
-                    <fieldset class="coparticipacao">
-                        <legend>Coparticipação:</legend>
+                                <label for="radio-whatsapp">
+                                    <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
+                                    WhatsApp
+                                </label>
+                        </fieldset>
+                        
+                        <label class="checkbox">
+                            <input type="checkbox" checked>
+                            Deseja receber novidades?
+                        </label>
 
-                            <p class="descricao__formulario">Pagamento adicional feito pelo beneficiário para custear parte dos serviços utilizados.</p>
-                            <label for="copart-sim">
-                                <input type="radio" name="copart" value="coparticipacao" id="copart-sim">
-                                Sim
-                            </label>
-
-                            <label for="copart-não">
-                                <input type="radio" name="copart" value="coparticipacao" id="copart-nao">
-                                Não
-                            </label>
-                    </fieldset>
-
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email"  class="input-padrao" required placeholder="seuemail@dominio.com">
-
-                    <label for="telefone">Telefone:</label>
-                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx)xxxxx-xxxx">
-
-                    <fieldset class="contato">
-                        <legend>Como Prefere seu contato?</legend>
-                            <label for="radio-email">
-                                <input type="radio" name="contato" value="email" id="radio-email">
-                                E-mail
-                            </label>
-
-                            <label for="radio-telefone">
-                                <input type="radio" name="contato" value="telefone" id="radio-telefone">
-                                Telefone
-                            </label>
-
-                            <label for="radio-whatsapp">
-                                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>
-                                WhatsApp
-                            </label>
-                    </fieldset>
-                    
-                    <label class="checkbox">
-                        <input type="checkbox" checked>
-                        Deseja receber novidades?
-                    </label>
-
-                    <input type="submit" value="Solicitar Cotação" class="enviar">
-            </form>
-
-        </div>
-
-        <footer>
-            <div class="rodape-colunas">
-
-                <div class="rodape__coluna-a">
-                    <h5>Ransom Seguros</h5>
-                    <p class="descricao__rodape">A Ransom Resgate atua há 21 anos no mercado securitário com ampla 
-                        experiência na criação, adequação e gestão de políticas de benefícios, tendo como foco os 
-                        objetivos estratégicos dos seus clientes.
-                    </p>
-                </div>
-
-                <div class="rodape__coluna-b">
-                    <h5>Contato</h5>
-                        <ul class="lista-rodape">
-                            <li class="item-lista">&#9743;(11) 2984-1515</li>
-                            <li class="item-lista">&#128241;(11) 93801-2891</li>
-                        </ul>
-                </div>
-
-                <div class="rodape__coluna-c">
-                    <h5>Endereço</h5>
-                        <p class="descricao__rodape">
-                            Avenida General Ataliba Leonel 2680, sala 21
-                            Bairro: Parada Inglesa
-                            São Paulo – SP
-                            CEP: 02242-000
-                        </p>
-                </div>
-
-                <div class="rodape__coluna-d">
-                        <h5>Acesso Rápido</h5>
-                            <ul class="lista-rodape">
-                                <li class="item-lista">Artigos</li>
-                                <li class="item-lista">Clientes</li>
-                                <li class="item-lista">Contato</li>
-                                <li class="item-lista">Quem somos</li>
-                            </ul>
-                </div>
+                        <input type="submit" value="Solicitar Cotação" class="enviar">
+                </form>
 
             </div>
-        </footer>
+
+            <footer>
+                <div class="rodape-colunas">
+
+                    <div class="rodape__coluna-a">
+                        <h5>Ransom Seguros</h5>
+                        <p class="descricao__rodape">A Ransom Resgate atua há 21 anos no mercado securitário com ampla 
+                            experiência na criação, adequação e gestão de políticas de benefícios, tendo como foco os 
+                            objetivos estratégicos dos seus clientes.
+                        </p>
+                    </div>
+
+                    <div class="rodape__coluna-b">
+                        <h5>Contato</h5>
+                            <ul class="lista-rodape">
+                                <li class="item-lista">&#9743;(11) 2984-1515</li>
+                                <li class="item-lista">&#128241;(11) 93801-2891</li>
+                            </ul>
+                    </div>
+
+                    <div class="rodape__coluna-c">
+                        <h5>Endereço</h5>
+                            <p class="descricao__rodape">
+                                Avenida General Ataliba Leonel 2680, sala 21
+                                Bairro: Parada Inglesa
+                                São Paulo – SP
+                                CEP: 02242-000
+                            </p>
+                    </div>
+
+                    <div class="rodape__coluna-d">
+                            <h5>Acesso Rápido</h5>
+                                <ul class="lista-rodape">
+                                    <li class="item-lista">Artigos</li>
+                                    <li class="item-lista">Clientes</li>
+                                    <li class="item-lista">Contato</li>
+                                    <li class="item-lista">Quem somos</li>
+                                </ul>
+                    </div>
+
+                </div>
+            </footer>
+    </body>
+</html>
 
